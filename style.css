@@ -39,4 +39,16 @@ h1 {
 }
 
 /* Your CSS below here */
-background-image: url(top-image.png);
+article {
+   background: url(top-image.png) no-repeat top, linear-gradient(rgb(220,220,220), transparent 19%), 
+               url(bottom-image.png) no-repeat bottom, linear-gradient(transparent 83%, rgb(220,220,220));
+   background-color: white;
+   border-top: 1px solid crimson;
+   border-bottom: 1px solid crimson;  
+}
+
+h1 {
+   background-image: url(logo.png);
+   -webkit-filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.5));
+   filter: drop-shadow(5px 5px 1px rgba(0,0,0,0.5));  
+}
